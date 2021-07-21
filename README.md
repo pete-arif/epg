@@ -6,6 +6,8 @@ No problems.
 
 ## Solved problems
 - HITZ FM EPG Unavailable.
+- RTM Klik EPG unavailable from 12/7/2021 to 21/7/2021.
+  - Updated SiteIni
 - BBC World News HD (String was not recognized as a valid DateTime)
   - Now using SiteIni by aa6my ([See here](https://github.com/weareblahs/epg/issues/2#issuecomment-841613022)), most of the channels that returned "String was not recognized as a valid DateTime" are fixed. All of the EPG data should be working now.
 - Some channels unavailable on Astro.
