@@ -1,6 +1,24 @@
 ## For your information
 Original EPG repository is in an archived state. See https://github.com/thisistyx/epg-old for the original one.
 
+## Updates
+Starting from 15/9/2021, Astro EPG will be adding several new channels. These are:
+ - PRIMEtime (704)
+ - Paramount Network (713)
+ - Lifetime HD (703)
+ - BBC Earth HD (554)
+ - BBC Lifestyle HD (717)
+ - Showcase Movies (413)
+ - HBO Family (414)
+ - HBO Hits (415)
+These channels will change it's ``tvg-id`` value:
+ - FOX: 722
+ - FX: 723
+ - FOXlife: 721
+ - Discovery Science: 557
+ - FOX Movies: 417
+ - FOX Family Movies: 418
+ - FOX Action Movies: 419
 ## Currently encountered problems
 No problems.
 
@@ -49,7 +67,7 @@ This part is messy in thisistyx.github.io/epg. See original page (https://github
 | Channel Logos | ✓ | ✓ | ✓ (Not Transparent) | ✓ (RTM Klik sources are not transparent) |
 | Channel Guide Images | ✓ | - (Except Astro sources) | - | - |
 | Source | content.astro.com.my | playtv.unifi.com.my (Some channels uses same source as Astro) | rtmklik.rtm.gov.my | rtmklik.gov.my / content.astro.com.my |
-| How many channels? | 192 | 73 (+8 channels during Tokyo 2020 Olympics) | 8 | 21 |
+| How many channels? | 215 | 73 (+8 channels during Tokyo 2020 Olympics) | 8 | 21 |
 | XMLTV EPG ID (tvg-id) | Channel Number ([See here for IDs for Astro GO Exclusive Channels](https://thisistyx.github.io/epg/misc/AGEC.md)) | Channel Number | [See Here](https://thisistyx.github.io/epg/misc/RTMK.md) | Channel Number |
 | XMLTV Links | https://thisistyx.github.io/epg/astro.xml  https://thisistyx.github.io/epg/astro.xml.gz | https://thisistyx.github.io/epg/unifitv.xml  https://thisistyx.github.io/epg/unifitv.xml.gz | https://thisistyx.github.io/epg/rtmklik.xml  https://thisistyx.github.io/epg/rtmklik.xml.gz | https://thisistyx.github.io/epg/mytv.xml  https://thisistyx.github.io/epg/mytv.xml.gz |
 | Guide Update Estimated Time | 56 minutes - 1 hours 30 minutes | 2 minutes - 10 minutes | 36 seconds - 2 minutes | 3 minutes - 4 minutes |
