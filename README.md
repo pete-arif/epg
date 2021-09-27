@@ -1,24 +1,6 @@
 ## For your information
 Original EPG repository is in an archived state. See https://github.com/thisistyx/epg-old for the original one.
 
-## Updates
-Starting from 15/9/2021, Astro EPG will be adding several new channels. These are:
- - PRIMEtime (704)
- - Paramount Network (713)
- - Lifetime HD (703)
- - BBC Earth HD (554)
- - BBC Lifestyle HD (717)
- - Showcase Movies (413)
- - HBO Family (414)
- - HBO Hits (415)
-These channels will change it's ``tvg-id`` value:
- - FOX: 722
- - FX: 723
- - FOXlife: 721
- - Discovery Science: 557
- - FOX Movies: 417
- - FOX Family Movies: 418
- - FOX Action Movies: 419
 ## Currently encountered problems
 No problems.
 
