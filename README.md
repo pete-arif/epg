@@ -1,5 +1,5 @@
 ## For your information
-Original EPG repository is in an archived state. See https://github.com/thisistyx/epg-old for the original one.
+Original EPG repository is in an archived state. See https://github.com/weareblahs/epg-old for the original one.
 
 ## Currently encountered problems
 No problems.
@@ -9,7 +9,7 @@ No problems.
 - RTM Klik EPG unavailable from 12/7/2021 to 21/7/2021.
   - Updated SiteIni
 - BBC World News HD (String was not recognized as a valid DateTime)
-  - Now using SiteIni by aa6my ([See here](https://github.com/thisistyx/epg/issues/2#issuecomment-841613022)), most of the channels that returned "String was not recognized as a valid DateTime" are fixed. All of the EPG data should be working now.
+  - Now using SiteIni by aa6my ([See here](https://github.com/weareblahs/epg/issues/2#issuecomment-841613022)), most of the channels that returned "String was not recognized as a valid DateTime" are fixed. All of the EPG data should be working now.
 - Some channels unavailable on Astro.
   - Fixed: Changed the unavailable WebGrab ID from SD channel ID to HD channel ID.
 - unifi TV EPG only shows these channels
@@ -43,15 +43,15 @@ Thanks to Khalis (@hantu08 on Telegram) for helping me doing some WebGrab+Plus s
  - Access to the new RTM Klik SiteIni
 
 # What's Available in the guides
-This part is messy in thisistyx.github.io/epg. See original page (https://github.com/thisistyx/epg) for correct formatting.
+This part is messy in weareblahs.github.io/epg. See original page (https://github.com/weareblahs/epg) for correct formatting.
 | (Provider) | Astro | unifi TV | RTM Klik | MYTV Broadcasting / myFreeview |
 |--|--|--|--|--|
 | Channel Logos | ✓ | ✓ | ✓ (Not Transparent) | ✓ (RTM Klik sources are not transparent) |
 | Channel Guide Images | ✓ | - (Except Astro sources) | - | - |
 | Source | content.astro.com.my | playtv.unifi.com.my (Some channels uses same source as Astro) | rtmklik.rtm.gov.my | rtmklik.gov.my / content.astro.com.my |
 | How many channels? | 215 | 73 (+8 channels during Tokyo 2020 Olympics) | 8 | 21 |
-| XMLTV EPG ID (tvg-id) | Channel Number ([See here for IDs for Astro GO Exclusive Channels](https://thisistyx.github.io/epg/misc/AGEC.md)) | Channel Number | [See Here](https://thisistyx.github.io/epg/misc/RTMK.md) | Channel Number |
-| XMLTV Links | https://thisistyx.github.io/epg/astro.xml  https://thisistyx.github.io/epg/astro.xml.gz | https://thisistyx.github.io/epg/unifitv.xml  https://thisistyx.github.io/epg/unifitv.xml.gz | https://thisistyx.github.io/epg/rtmklik.xml  https://thisistyx.github.io/epg/rtmklik.xml.gz | https://thisistyx.github.io/epg/mytv.xml  https://thisistyx.github.io/epg/mytv.xml.gz |
+| XMLTV EPG ID (tvg-id) | Channel Number ([See here for IDs for Astro GO Exclusive Channels](https://weareblahs.github.io/epg/misc/AGEC.md)) | Channel Number | [See Here](https://weareblahs.github.io/epg/misc/RTMK.md) | Channel Number |
+| XMLTV Links | https://weareblahs.github.io/epg/astro.xml  https://weareblahs.github.io/epg/astro.xml.gz | https://weareblahs.github.io/epg/unifitv.xml  https://weareblahs.github.io/epg/unifitv.xml.gz | https://weareblahs.github.io/epg/rtmklik.xml  https://weareblahs.github.io/epg/rtmklik.xml.gz | https://weareblahs.github.io/epg/mytv.xml  https://weareblahs.github.io/epg/mytv.xml.gz |
 | Guide Update Estimated Time | 56 minutes - 1 hours 30 minutes | 2 minutes - 10 minutes | 36 seconds - 2 minutes | 3 minutes - 4 minutes |
 | Additional Channel Information ( "-" means Title and Description only) | Categories, Program Rating, Credits, Episode Number | Episode Number | Episode Number, Category | Program Rating, Episode Number |
 
