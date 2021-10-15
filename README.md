@@ -26,7 +26,7 @@ This part is messy in weareblahs.github.io/epg. See original page (https://githu
 | Channel Logos | ✓ | ✓ | ✓ (Not Transparent) | ✓ (RTM Klik sources are not transparent) |
 | Channel Guide Images | ✓ | - (Except Astro sources) | - | - |
 | Source | content.astro.com.my | playtv.unifi.com.my (Some channels uses same source as Astro) | rtmklik.rtm.gov.my | rtmklik.gov.my / content.astro.com.my |
-| How many channels? | 215 | 73 (+8 channels during Tokyo 2020 Olympics) | 8 | 21 |
+| How many channels? | 208 | 73 (+8 channels during Tokyo 2020 Olympics) | 8 | 21 |
 | XMLTV EPG ID (tvg-id) | Channel Number ([See here for IDs for Astro GO Exclusive Channels](https://weareblahs.github.io/epg/misc/AGEC.md)) | Channel Number | [See Here](https://weareblahs.github.io/epg/misc/RTMK.md) | Channel Number |
 | XMLTV Links | https://weareblahs.github.io/epg/astro.xml  https://weareblahs.github.io/epg/astro.xml.gz | https://weareblahs.github.io/epg/unifitv.xml  https://weareblahs.github.io/epg/unifitv.xml.gz | https://weareblahs.github.io/epg/rtmklik.xml  https://weareblahs.github.io/epg/rtmklik.xml.gz | https://weareblahs.github.io/epg/mytv.xml  https://weareblahs.github.io/epg/mytv.xml.gz |
 | Guide Update Estimated Time | 56 minutes - 1 hours 30 minutes | 2 minutes - 10 minutes | 36 seconds - 2 minutes | 3 minutes - 4 minutes |
