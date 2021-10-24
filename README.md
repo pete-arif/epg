@@ -1,3 +1,6 @@
+## Update
+After 14 days of unifi TV EPG, which didn't get updated, it will be updated as normal as I found out that I overlapped one of the channels.
+
 ## For your information
 Original EPG repository is in an archived state. See https://github.com/weareblahs/epg-old for the original one.
 
