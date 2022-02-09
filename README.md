@@ -16,6 +16,10 @@ This repository is for Malaysian TV Channels (and some Southeast Asian ones, too
 # What to know before using this EPG
 - This EPG is free-of-charge and **NOT for sale** at any platforms! You can use these links for your YouTube tutorials, blogs, and more.
 - All rights reserved to the respective companies. Special thanks to Astro, RTM and unifi TV for providing the channel guide.
+
+# Viewing EPG on your PC
+You can download the EPG data (see "What's available in the guides") and open it with any compatible XMLTV viewer. I recommend using [ERD XMLTV Viewer](https://erdesigns.eu/app/freeware/view/4).
+
 # Credits
 Thanks to Khalis (@hantu08 on Telegram) for helping me doing some WebGrab+Plus stuffs, including:
  - Access to unifi TV Channel Guide directly from playtv@unifi  
@@ -23,7 +27,6 @@ Thanks to Khalis (@hantu08 on Telegram) for helping me doing some WebGrab+Plus s
  - Access to the new RTM Klik SiteIni
 
 # What's Available in the guides
-This part is messy in weareblahs.github.io/epg. See original page (https://github.com/weareblahs/epg) for correct formatting.
 | (Provider) | Astro | unifi TV | RTM Klik | MYTV Broadcasting / myFreeview |
 |--|--|--|--|--|
 | Channel Logos | ✓ | ✓ | ✓ (Not Transparent) | ✓ (RTM Klik sources are not transparent) |
