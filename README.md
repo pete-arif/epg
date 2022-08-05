@@ -1,3 +1,6 @@
+### Updaet 6/8/2022
+NOTE: EPG for rtmklik won't be available due to a website upgrade by RTM. Might be removing soon.
+
 # What's this all about?
 This repository contains all the XMLTV data for Malaysian TV providers. All grabbed from respective providers.
 
