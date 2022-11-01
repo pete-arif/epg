@@ -11,9 +11,8 @@ git add .
 git commit -m "GeneratedDate Start"
 git push
 cd %USERPROFILE%\AppData\Local\WebGrab+Plus
-cd %USERPROFILE%\AppData\Local\WebGrab+Plus
 del "WebGrab++.config.xml"
-copy %USERPROFILE%\Desktop\epg\epg_e\astro.config.xml "WebGrab++.config.xml"
+copy %USERPROFILE%\Desktop\epg\epg_e\astro_config.xml "WebGrab++.config.xml"
 Run.lnk
 cd %USERPROFILE%\Desktop\epg\
 ren astro-debug.xml astro.xml
@@ -35,7 +34,7 @@ git push
 cd %USERPROFILE%\AppData\Local\WebGrab+Plus
 cd %USERPROFILE%\AppData\Local\WebGrab+Plus
 del "WebGrab++.config.xml"
-copy %USERPROFILE%\Desktop\epg\epg_e\unifitv.config.xml "WebGrab++.config.xml"
+copy %USERPROFILE%\Desktop\epg\epg_e\unifitv_config.xml "WebGrab++.config.xml"
 Run.lnk
 cd %USERPROFILE%\Desktop\epg\
 ren unifitv-debug.xml unifitv.xml
@@ -55,9 +54,8 @@ git add .
 git commit -m "GeneratedDate unifi TV"
 git push
 cd %USERPROFILE%\AppData\Local\WebGrab+Plus
-cd %USERPROFILE%\AppData\Local\WebGrab+Plus
 del "WebGrab++.config.xml"
-copy %USERPROFILE%\Desktop\epg\epg_e\rtmklik.config.xml "WebGrab++.config.xml"
+copy %USERPROFILE%\Desktop\epg\epg_e\rtmklik_config.xml "WebGrab++.config.xml"
 Run.lnk
 cd %USERPROFILE%\Desktop\epg\
 fart rtmklik.xml "(n)</desc>" "</desc>"
@@ -77,9 +75,8 @@ git commit -m "GeneratedDate RTMKlik"
 git push
 @echo off
 cd %USERPROFILE%\AppData\Local\WebGrab+Plus
-cd %USERPROFILE%\AppData\Local\WebGrab+Plus
 del "WebGrab++.config.xml"
-copy %USERPROFILE%\Desktop\epg\epg_e\mytv.config.xml "WebGrab++.config.xml"
+copy %USERPROFILE%\Desktop\epg\epg_e\mytv_config.xml "WebGrab++.config.xml"
 Run.lnk
 cd %USERPROFILE%\Desktop\epg\
 fart mytv.xml "(n)</desc>" "</desc>"
