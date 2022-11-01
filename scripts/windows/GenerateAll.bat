@@ -11,11 +11,11 @@ git add .
 git commit -m "GeneratedDate Start"
 git push
 cd %USERPROFILE%\AppData\Local\WebGrab+Plus
-C:
+cd %USERPROFILE%\AppData\Local\WebGrab+Plus
 del "WebGrab++.config.xml"
-copy epg_e\astro.config.xml "WebGrab++.config.xml"
+copy %USERPROFILE%\Desktop\epg\epg_e\astro.config.xml "WebGrab++.config.xml"
 Run.lnk
-G:
+cd %USERPROFILE%\Desktop\epg\
 ren astro-debug.xml astro.xml
 fart astro.xml "(n)</desc>" "</desc>"
 tar -czvf compressed\astro.xml.gz astro.xml
@@ -33,11 +33,11 @@ git add .
 git commit -m "GeneratedDate Astro"
 git push
 cd %USERPROFILE%\AppData\Local\WebGrab+Plus
-C:
+cd %USERPROFILE%\AppData\Local\WebGrab+Plus
 del "WebGrab++.config.xml"
-copy epg_e\unifitv.config.xml "WebGrab++.config.xml"
+copy %USERPROFILE%\Desktop\epg\epg_e\unifitv.config.xml "WebGrab++.config.xml"
 Run.lnk
-G:
+cd %USERPROFILE%\Desktop\epg\
 ren unifitv-debug.xml unifitv.xml
 fart unifitv.xml "(n)</desc>" "</desc>"
 tar -czvf compressed\unifitv.xml.gz unifitv.xml
@@ -55,11 +55,11 @@ git add .
 git commit -m "GeneratedDate unifi TV"
 git push
 cd %USERPROFILE%\AppData\Local\WebGrab+Plus
-C:
+cd %USERPROFILE%\AppData\Local\WebGrab+Plus
 del "WebGrab++.config.xml"
-copy epg_e\rtmklik.config.xml "WebGrab++.config.xml"
+copy %USERPROFILE%\Desktop\epg\epg_e\rtmklik.config.xml "WebGrab++.config.xml"
 Run.lnk
-G:
+cd %USERPROFILE%\Desktop\epg\
 fart rtmklik.xml "(n)</desc>" "</desc>"
 tar -czvf compressed\rtmklik.xml.gz rtmklik.xml
 git add rtmklik.xml compressed/rtmklik.xml.gz
@@ -77,11 +77,11 @@ git commit -m "GeneratedDate RTMKlik"
 git push
 @echo off
 cd %USERPROFILE%\AppData\Local\WebGrab+Plus
-C:
+cd %USERPROFILE%\AppData\Local\WebGrab+Plus
 del "WebGrab++.config.xml"
-copy epg_e\mytv.config.xml "WebGrab++.config.xml"
+copy %USERPROFILE%\Desktop\epg\epg_e\mytv.config.xml "WebGrab++.config.xml"
 Run.lnk
-G:
+cd %USERPROFILE%\Desktop\epg\
 fart mytv.xml "(n)</desc>" "</desc>"
 tar -czvf compressed\mytv.xml.gz mytv.xml
 git add mytv.xml compressed/mytv.xml.gz
